@@ -1,0 +1,16 @@
+{
+  "name": "ECAC Certs",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:1-10.0-preview",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {}
+  },
+  "forwardPorts": [3000],
+  "customizations": {"vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit",
+        "jmrog.vscode-nuget-package-manager"
+      ]
+    }}
+}
