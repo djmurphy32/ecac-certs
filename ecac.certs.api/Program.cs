@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen(opts =>
 });
 
 builder.Services.AddScoped<ISpreadsheetParser, SpreadsheetParser>();
+builder.Services.AddScoped<ICertGenerator, CertGenerator>();
 
 var app = builder.Build();
 app.UseHealthChecks("/healthcheck");
