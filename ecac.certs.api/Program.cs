@@ -7,10 +7,7 @@ configuration.AddEnvironmentVariables();
 builder.Services.AddControllers();
 builder.Services.AddHealthChecks();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(opts =>
-{
-    opts.EnableAnnotations();
-});
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ISpreadsheetParser, SpreadsheetParser>();
 builder.Services.AddScoped<ICertGenerator, CertGenerator>();

@@ -21,4 +21,17 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="release\release\web.config" />
+    <_ContentIncludedByDefault Remove="release\web.config" />
+    <_ContentIncludedByDefault Remove="release\appsettings.json" />
+    <_ContentIncludedByDefault Remove="release\Ecac.Certs.Api.deps.json" />
+    <_ContentIncludedByDefault Remove="release\Ecac.Certs.Api.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="release\Ecac.Certs.Api.staticwebassets.endpoints.json" />
+    <_ContentIncludedByDefault Remove="release\release\appsettings.json" />
+    <_ContentIncludedByDefault Remove="release\release\Ecac.Certs.Api.deps.json" />
+    <_ContentIncludedByDefault Remove="release\release\Ecac.Certs.Api.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="release\release\Ecac.Certs.Api.staticwebassets.endpoints.json" />
+  </ItemGroup>
+
 </Project>
